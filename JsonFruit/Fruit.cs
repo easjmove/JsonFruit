@@ -5,7 +5,7 @@ namespace JsonFruit
 {
     public class Fruit
     {
-        private string typeOfFruit;
+        public string typeOfFruit { get; set; }
 
         public Fruit()
         {
