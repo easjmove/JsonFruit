@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Linq;
 
 namespace JsonFruit
 {
     public class Fruit
     {
-        public string typeOfFruit { get; set; }
+        private string typeOfFruit;
 
         public Fruit()
         {
